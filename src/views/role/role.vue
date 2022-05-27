@@ -13,7 +13,7 @@
       <a-button type="primary" icon="plus" @click="addHand()"> 新增 </a-button>
 
       <a-button type="primary" icon="edit" @click="updateHand()">
-        修改
+        修改2
       </a-button>
       <a-button type="primary" icon="delete" @click="delHand()">
         删除
@@ -40,7 +40,7 @@
           <!-- 第一项 -->
           <a-form-model-item
             ref="user"
-            label="角色名称"
+            label="角色名称1"
             prop="user"
             :label-col="formItemLayout.labelCol"
             :wrapper-col="formItemLayout.wrapperCol"
